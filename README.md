@@ -1,4 +1,4 @@
-# P1-reader
+# Plugwise P1 to InfluxDB exporter
 
 Very simple, not resilliant, Node script to poll the PlugWise P1 reader and store in InfluxDB.
 
@@ -11,7 +11,7 @@ Configure the following environment variables before running the script:
 * `INFLUXDB_PORT`: InfluxDBs port
 * `INFLUXDB_DATABASE`: InfluxDBs database
 * `P1_HOST`: Plugwise P1 reader IP address
-* `P1_ID: Plugwise P1 reader ID a.k.a. password (username is always smile)
+* `P1_ID`: Plugwise P1 reader ID a.k.a. password (username is always smile)
 
 ## How to run
 
